@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import man from './assets/man.svg'
-import { Hero, Nav, Work } from './components'
+import { About, Contact, Hero, Nav, Work } from './components'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +11,8 @@ function App() {
       <Nav/>
       <Hero/>
       <Work/>
+      <About/>
+      <Contact/>
     </div>
   )
 }

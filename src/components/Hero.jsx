@@ -3,7 +3,7 @@ import man from '../assets/man.svg'
 
 export default function Hero() {
   return (
-    <div className='flex justify-between w-full max-w-5xl  mx-auto my-[3rem]'>
+    <div className='flex justify-between w-full max-w-5xl  mx-auto '>
         <div className=' flex-1  w-full'>
          <h1 className='text-4xl leading-snug mt-20 font-bold '>
          <span className='spanblac'>  I’m a <span>Self-Taught Developer</span></span> 
