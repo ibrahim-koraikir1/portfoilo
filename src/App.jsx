@@ -1,20 +1,17 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import man from './assets/man.svg'
-import { About, Contact, Hero, Nav, Work } from './components'
-
+import { About, Contact, Hero, Nav, Work } from "./components";
+import { motion, useScroll, useTransform } from "framer-motion";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="">
-      <Nav/>
-      <Hero/>
-      <Work/>
-      <About/>
-      <Contact/>
+      <Nav />
+      <Hero />
+      <Work />
+      <About />
+      <Contact />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
